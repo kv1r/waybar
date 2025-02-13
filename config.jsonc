@@ -63,14 +63,16 @@
     },
     "cpu": {
         "format": "{usage}% ",
+        "interval": 2,
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ",
+        "interval": 1
     },
     "temperature": {
         // "thermal-zone": 2,
-	"interval": 3,
+	      "interval": 1,
         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
@@ -86,6 +88,7 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
+        "interval":1,
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
