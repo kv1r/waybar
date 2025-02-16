@@ -63,16 +63,16 @@ tooltip label {
 }
 
 #workspaces button {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 4px;
-  padding-left: 4px;
+  padding: 0px 4px 0px 4px;
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white;
+  border-bottom: 1px solid white;
+  border-radius: 30%;
+  border-width: 2px;
 
   margin-right: 2px;
+
 }
 
 #idle_inhibitor {
@@ -100,54 +100,37 @@ tooltip label {
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: 30px 30px;
+  border-width: 2px;
 
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin: 3px 3px;
 
  }
-#pulseaudio {
-  padding: 0px 7px;
 
-  background-color: rgba(0,0,0,1);
-
-  border: 1px solid white;
-  border-radius: 30px 30px;
-
-  margin-bottom: 3px;
-  margin-top: 3px;
-
-} 
 #cpu {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 9px;
-  padding-left: 7px;
+  padding: 0px 9px 0px 7px;
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: 30px 30px;
+  border-width: 2px;
 
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin: 3px 0px 3px 0;
   
 }
 
 #memory {
-  padding-top: 0px;
-  padding-bottom:0px;
-  padding-left: 7px;
-  padding-right: 12px;
+  padding: 0px 12px 0px 7px;
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: 30px 30px;
+  border-width: 3px;
 
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin: 3px 0px 3px 0;
   
 }
 
@@ -169,11 +152,11 @@ tooltip label {
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: 30px 30px;
+  border-width: 2px;
 
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin: 3px 3px
 }
 
 #pulseaudio {
@@ -181,11 +164,12 @@ tooltip label {
 
 
   background-color: rgba(0,0,0,1);
-  border: 1px solid white;
-  border-radius: 30px 30px;
 
-  margin-bottom: 3px;
-  margin-top: 3px;
+  border-bottom: 1px solid white;
+  border-radius: 30px 30px;
+  border-width: 2px;
+
+  margin: 2px 1px;
   
 }
 
@@ -202,30 +186,16 @@ tooltip label {
 }
 
 #custom-power {
-  padding-bottom: 0px;
-  padding-right: 10px;
-  padding-left: 15px;
+  padding: 0px 10px 0px 15px;
 
   background-color: rgba(0,0,0,1);
 
-  border: 1px solid white; 
+  border-bottom: 1px solid white; 
   border-radius: 30px 30px;
+  border-width: 2px;
 
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin: 3px 3px 3px 1px; 
   
-}
-
-#custom-logo {
-  padding: 0px 9px;
-
-  background-color: rgba(0,0,0,1);
-
-  border: 1px solid white;
-  border-radius: 30px 30px;
-
-  margin-bottom: 3px;
-  margin-top: 3px;
 }
 
 #battery,

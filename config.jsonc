@@ -13,8 +13,7 @@
     "modules-center": [
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
+     // "idle_inhibitor",
         "pulseaudio",
         "network",
         "cpu",
@@ -117,7 +116,7 @@
 
     "custom/power": {
         "format" : "⏻ ",
-		"tooltip": false,
-		"on-click": "wlogout"
+		    "tooltip": false,
+		    "on-click": "wlogout"
         }
     },
