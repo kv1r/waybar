@@ -106,7 +106,7 @@ tooltip label {
   border-radius: 30px 30px;
   border-width: 2px;
 
-  margin: 3px 0px 3px 0;
+  margin: 3px 1px 3px 1px;
   
 }
 
@@ -145,7 +145,7 @@ tooltip label {
   border-radius: 30px 30px;
   border-width: 2px;
 
-  margin: 3px 3px
+  margin: 3px 2px 3px 2px
 }
 
 #pulseaudio {
@@ -163,7 +163,7 @@ tooltip label {
 }
 
 #tray {
-  padding: 0px 9px;
+  padding: 0px 9px 0px 9px;
 
   background-color: rgba(0,0,0,1);
 

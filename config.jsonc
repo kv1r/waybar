@@ -11,11 +11,11 @@
         "custom/media"
     ],
     "modules-center": [
+      "pulseaudio"
     ],
     "modules-right": [
      // "idle_inhibitor",
         "pulseaudio",
-        "network",
         "cpu",
         "memory",
      // "temperature",
