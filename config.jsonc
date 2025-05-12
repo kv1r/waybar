@@ -2,10 +2,11 @@
 {
     "reload_style_on_change": true,
     "reload_config_on_change": true,
-    "height": 25,
+    "height": 20,
     "spacing": 4,
     "modules-left": [
         "hyprland/workspaces",
+        "hyprland/window",
      // "hyprland/mode",
         "custom/media"
     ],
@@ -117,5 +118,10 @@
         "format" : "⏻ ",
 		    "tooltip": false,
 		    "on-click": "wlogout"
-        }
+        },
+
+    "window": {
+        "format": "{title}",
+        "max-length": 60,
+        },
     },

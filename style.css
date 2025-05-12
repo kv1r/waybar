@@ -12,7 +12,8 @@ window#waybar {
   /*    background-color: rgba(43, 48, 59, 0.5); */
   /*    border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   background-color: rgba(0, 0, 0, 0);
-  margin: 3px 0px;
+  margin-top: 3px;
+  margin-bottom: 0px;
   padding: 0;
   border: none;
 }
@@ -35,17 +36,6 @@ tooltip label {
   text-shadow: none;
 }
 
-#window {
-  padding: 0px 0px;
-
-  background-color: rgba (0,0,0,1);
-
-  border: 1px solid grey;
-  border-radius: 25px 25px;
-
-  margin-left: 9px;
-}
-
 #workspaces {
   background-color: black;
 
@@ -63,10 +53,20 @@ tooltip label {
 #workspaces button {
   padding: 0px 3px;
 
+  color: grey;
   background-color: transparent;
 
   margin: 0px 0px;
 
+}
+
+#window {
+  padding: 0px 4px;
+
+  background-color: black;
+
+  border: 0.5px solid white;
+  border-radius: 10px 10px; 
 }
 
 #network {
@@ -83,7 +83,7 @@ tooltip label {
  }
 
 #cpu {
-  padding: 0px 10 0px 6px;
+  padding: 0px 10px 0px 6px;
 
   background-color: rgba(0,0,0,1);
 
