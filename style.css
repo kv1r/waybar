@@ -39,7 +39,7 @@ tooltip label {
 #workspaces {
   background-color: rgba(0,0,0,1);
 
-  padding: 0px 0px;
+  padding: 0px 4px 0px 3px;
   
   border: 1px solid white;
   border-radius: 13px;
@@ -51,14 +51,14 @@ tooltip label {
 }
 
 #workspaces button {
-  padding: 0px 3px;
+  padding: 0px 2px;
 
   color: grey;
   background-color: transparent;
   
   border-radius: 16px;
 
-  margin: 0px 0px;
+
 
 }
 
