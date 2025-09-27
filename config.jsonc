@@ -5,13 +5,13 @@
     "height": 20,
     "spacing": 4,
     "modules-left": [
-        "hyprland/workspaces",
+        "clock",
         "hyprland/window",
      // "hyprland/mode",
         "custom/media"
     ],
     "modules-center": [
-      "clock"
+      "hyprland/workspaces"
     ],
     "modules-right": [
      // "idle_inhibitor",
