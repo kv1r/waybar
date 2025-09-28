@@ -5,13 +5,14 @@
     "height": 20,
     "spacing": 4,
     "modules-left": [
+        "hyprland/workspaces",
         "clock",
         "hyprland/window",
      // "hyprland/mode",
         "custom/media"
     ],
     "modules-center": [
-      "hyprland/workspaces"
+      
     ],
     "modules-right": [
      // "idle_inhibitor",
@@ -99,7 +100,7 @@
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": " {icon}",
-        "format-muted": " {format_source}",
+        "format-muted": " ",
         //"format-source": "{volume}% ",
         //"format-source-muted": "",
         "format-icons": {
@@ -111,7 +112,8 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+	"on-right-click": "pavucontrol"
     },
 
     "custom/power": {

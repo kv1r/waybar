@@ -11,11 +11,11 @@
 window#waybar {
   /*    background-color: rgba(43, 48, 59, 0.5); */
   /*    border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
-  background-color: rgba(0, 0, 0, 0);
-  margin-top: 3px;
-  margin-bottom: 0px;
+  background-color: rgba(0,0,0,0.7);
+  margin: 0px 5px;
   padding: 0;
-  border: none;
+  border-bottom: 1px solid white;
+  border-top: 0px solid white;
 }
 
 window#waybar.hidden {
@@ -37,12 +37,13 @@ tooltip label {
 }
 
 #workspaces {
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
   padding: 0px 4px 0px 3px;
   
-  border: 1px solid white;
-  border-radius: 13px;
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+  border-radius:  5px;
 
   margin: 0px 0px;
 
@@ -65,31 +66,31 @@ tooltip label {
 #window {
   padding: 0px 4px;
 
-  background-color: black;
+  background-color: transparent;
 
-  border: solid white;
-  border-radius: 10px; 
+  border-right: 0px solid white;
+  border-radius: 4px; 
 }
 
 #network {
-  padding: 0px 16px 0px 10px;
+  padding: 0px 6px 0px 10px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 8px;
+  border-bottom: 0px solid white;
+  border-radius: 3px;
 
-  margin: 0px 0px;
+  margin-left: 0px;
 
  }
 
 #cpu {
   padding: 0px 10px 0px 6px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 8px;
+  border-bottom: 0px solid white;
+  border-radius: 0px;
 
   margin: 0px 0px;
   
@@ -99,10 +100,10 @@ tooltip label {
 
   padding: 0px 11px 0px 6px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 10px;
+  border-bottom: 0px solid white;
+  border-radius: 0px;
 
   margin: 0px 0px;
   
@@ -111,10 +112,10 @@ tooltip label {
 #temperature {
   padding: 0px 5px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 10px;
+  border-bottom: 0px solid white;
+  border-radius: 0px;
 
   margin: 0px 0px;
 
@@ -123,10 +124,10 @@ tooltip label {
 #clock {
   padding: 0px 8px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 10px;
+  border-left: 0px solid white;
+  border-radius: 5px;
 
   margin: 0px 0px;
 }
@@ -135,10 +136,10 @@ tooltip label {
   padding: 0px 13px 0px 5px;
 
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 8px;
+  border-bottom: 0px solid white;
+  border-radius: 0px;
 
   margin: 0px 0px;
   
@@ -147,10 +148,10 @@ tooltip label {
 #tray {
   padding: 0px 10px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white;
-  border-radius: 30px;
+  border-bottom: 0px solid white;
+  border-radius: 0px;
 
   margin: 0px;
 }
@@ -158,10 +159,10 @@ tooltip label {
 #custom-power {
   padding: 0px 7px 0px 9px;
 
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 
-  border: solid white; 
-  border-radius: 40px;
+  border-bottom: 0px solid white; 
+  border-radius: 0px;
 
   margin: 0px 0px; 
   
