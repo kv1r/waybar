@@ -9,8 +9,6 @@
 }
 
 window#waybar {
-  /*    background-color: rgba(43, 48, 59, 0.5); */
-  /*    border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   background-color: rgba(0,0,0,0.7);
   margin: 0px 0px;
   padding: 0;
@@ -46,9 +44,6 @@ tooltip label {
   border-radius:  5px;
 
   margin: 0px 0px;
-
-
-  /* box-shadow: 0 0 2 1px rgba(0, 0, 0, 0.5); */
 }
 
 #workspaces button {
@@ -58,9 +53,6 @@ tooltip label {
   background-color: transparent;
   
   border-radius: 16px;
-
-
-
 }
 
 #window {
@@ -81,7 +73,6 @@ tooltip label {
   border-radius: 3px;
 
   margin-left: 0px;
-
  }
 
 #cpu {
@@ -93,7 +84,6 @@ tooltip label {
   border-radius: 0px;
 
   margin: 0px 0px;
-  
 }
 
 #memory {
@@ -142,7 +132,6 @@ tooltip label {
   border-radius: 0px;
 
   margin: 0px 0px;
-  
 }
 
 #tray {
@@ -164,8 +153,7 @@ tooltip label {
   border-bottom: 0px solid white; 
   border-radius: 0px;
 
-  margin: 0px 0px; 
-  
+  margin: 0px 0px;  
 }
 
 #battery,
