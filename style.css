@@ -9,10 +9,15 @@
 }
 
 window#waybar {
+<<<<<<< HEAD
   /*    background-color: rgba(43, 48, 59, 0.5); */
   /*    border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   background-color: rgba(0,0,0,0);
   margin-top: 0px;
+=======
+  background-color: rgba(0,0,0,0.7);
+  margin: 0px 0px;
+>>>>>>> refs/remotes/origin/master
   padding: 0;
   border-bottom: 0px solid white;
   border-top: 0px solid white;
@@ -47,9 +52,6 @@ tooltip label {
   border-radius:  10px 0px 0px 10px;
 
   margin: 0px 0px;
-
-
-  /* box-shadow: 0 0 2 1px rgba(0, 0, 0, 0.5); */
 }
 
 #workspaces button {
@@ -59,9 +61,6 @@ tooltip label {
   background-color: transparent;
   
   border-radius: 16px;
-
-
-
 }
 
 #window {
@@ -85,8 +84,15 @@ tooltip label {
   border-left: 1px solid white;
   border-radius: 10px 0px 0px 10px;
 
+<<<<<<< HEAD
   margin: 0px 0px;
 
+=======
+  border-bottom: 0px solid white;
+  border-radius: 3px;
+
+  margin-left: 0px;
+>>>>>>> refs/remotes/origin/master
  }
 
 #cpu {
@@ -99,7 +105,6 @@ tooltip label {
   border-radius: 0px;
 
   margin: 0px 0px;
-  
 }
 
 #memory {
@@ -153,7 +158,6 @@ tooltip label {
   border-radius: 0px;
 
   margin: 0px 0px;
-  
 }
 
 #tray {
@@ -177,8 +181,7 @@ tooltip label {
   border-bottom: 1px solid white; 
   border-radius: 0px 10px 10px 0px;
 
-  margin: 0px 0px; 
-  
+  margin: 0px 0px;  
 }
 
 #battery,
