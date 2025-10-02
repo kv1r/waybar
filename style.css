@@ -68,7 +68,7 @@ tooltip label {
 }
 
 #network {
-  padding: 0px 10px 0px 5px;
+  padding: 0px 8px 0px 5px;
 
   background-color: black;
   
@@ -81,7 +81,7 @@ tooltip label {
  }
 
 #cpu {
-  padding: 0px 10px 0px 6px;
+  padding: 0px 5px 0px 2px;
 
   background-color: black;
 
@@ -94,7 +94,7 @@ tooltip label {
 
 #memory {
 
-  padding: 0px 11px 0px 6px;
+  padding: 0px 8px 0px 6px;
 
   background-color: black;
 
@@ -107,7 +107,7 @@ tooltip label {
 }
 
 #temperature {
-  padding: 0px 5px;
+  padding: 0px 0px;
 
   background-color: black;
 
@@ -127,6 +127,7 @@ tooltip label {
 
   border-left: 1px solid white;
   border-top: 1px solid white;
+  border-right: 1px solid white;
   border-bottom: 1px solid white;
   border-radius: 10px 0px 0px 10px;
 

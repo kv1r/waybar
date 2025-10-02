@@ -123,6 +123,6 @@
 
     "window": {
         "format": "{title}",
-        "max-length": 60,
+        "max-length": 40,
         },
     },
