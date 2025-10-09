@@ -42,7 +42,7 @@ tooltip label {
   padding: 0px 4px 0px 3px;
   
   border: 1px solid white;
-  border-radius:  10px;
+  border-radius:  30px;
 
   margin: 0px 0px;
 }
@@ -53,7 +53,7 @@ tooltip label {
   color: grey;
   background-color: transparent;
   
-  border-radius: 16px;
+  border-radius: 16px
 }
 
 #window {
@@ -64,7 +64,7 @@ tooltip label {
   border-top: 1px solid white;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  border-radius: 0px 10px 10px 0px; 
+  border-radius: 0px 30px 30px 0px; 
 }
 
 #network {
@@ -75,13 +75,13 @@ tooltip label {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 30px 0px 0px 30px;
 
   margin: 0px;
  }
 
 #cpu {
-  padding: 0px 5px 0px 2px;
+  padding: 0px 5px;
 
   background-color: black;
 
@@ -94,7 +94,7 @@ tooltip label {
 
 #memory {
 
-  padding: 0px 8px 0px 6px;
+  padding: 0px 5px;
 
   background-color: black;
 
@@ -107,7 +107,7 @@ tooltip label {
 }
 
 #temperature {
-  padding: 0px 0px;
+  padding: 0px 5px;
 
   background-color: black;
 
@@ -129,13 +129,13 @@ tooltip label {
   border-top: 1px solid white;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 30px 0px 0px 30px;
 
   margin: 0px 0px;
 }
 
 #pulseaudio {
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px;
 
 
   background-color: black;
@@ -148,7 +148,7 @@ tooltip label {
 }
 
 #tray {
-  padding: 0px 10px;
+  padding: 0px 5px;
 
   background-color: black;
 
@@ -160,13 +160,12 @@ tooltip label {
 }
 
 #custom-power {
-  padding: 0px 7px 0px 9px;
-
+  padding: 0px 5px;
   background-color: black;
 
   border-top: 1px solid white;
   border-bottom: 1px solid white; 
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 30px 30px 0px;
 
   margin: 0px 0px;  
 }
